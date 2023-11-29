@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 150px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    /*  Css of the card*/
+.box {
+    border: 1px solid #f3f1f1;
+    padding: 20px;
+    margin: 30px;
+    width: 850px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 30px 30px 30px;
+    background-color: rgb(243, 240, 240)
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box img {
+    width: 250px;
+    height: auto;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+    border: 1px solid blue;
+    padding: 3px;
 }
-
-.App-link {
-  color: #61dafb;
+.information{
+    padding:30px;
 }
+.information h1{
+    color: blue;
+    padding: 10px;
+}
+/*  css of the button click me*/
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: blue;
+    font-weight: bolder;
+    box-shadow: 0 5px 10px 5px black;
+}
+/*  css of the count: contshow*/
+.count{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0 5px 10px 5px black;
+    color: blue;
+    font-weight: bolder;
+    margin-top: 15px;
+    background-color: rgb(243, 240, 240);
+    height: 90px;
+    margin-top: 140px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
